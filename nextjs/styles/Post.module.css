@@ -1,0 +1,48 @@
+.container {
+  border: 1px solid lightgrey;
+  border-radius: 2.5%;
+  width: 100%;
+  height: 100%;
+
+  padding: 1em;
+}
+
+.profileImg {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+}
+
+.header {
+  display: flex;
+
+  border-bottom: 4px solid lightgrey;
+}
+
+.comment {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.liked {
+  width: 30px;
+  color: #00c194;
+  cursor: pointer;
+}
+.liked:hover {
+  width: 30px;
+  color: #00c194;
+  cursor: pointer;
+}
+
+.like {
+  width: 30px;
+  color: #00c194;
+}
+.like {
+  cursor: pointer;
+  color: #00c194;
+  /* border: 1px #00C194 solid; */
+  /* box-sizing: border-box; */
+  /* border: 1px red solid; */
+}
